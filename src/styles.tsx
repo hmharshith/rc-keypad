@@ -4,7 +4,7 @@ const GlobalStyles = {
     color: 'red',
   },
   container: {
-    width: '98%',
+    width: '100%',
     maxWidth: '600px',
     maxHeight: '300px',
     padding: '5px',
