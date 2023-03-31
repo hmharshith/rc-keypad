@@ -13,17 +13,19 @@ npm install --save rc-keypad
 ## Usage
 
 ```tsx
-import React, { Component } from 'react'
-
-import MyComponent from 'rc-keypad'
-import 'rc-keypad/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+import React from 'react'
+import { AlphabetOnlyKeypad } from 'rc-keypad'
+const App = () => {
+  return <AlphabetOnlyKeypad
+      onKeyPress={(key) => console.log(key)}
+      colorMode='dark'
+    />
 }
+
 ```
+
+![Peek 2023-03-31 14-57](https://user-images.githubusercontent.com/13695694/229082412-e2b01e78-17d1-416a-aabb-1f3edf1d6092.gif)
+
 
 ## License
 
