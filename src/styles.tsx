@@ -11,7 +11,7 @@ const GlobalStyles = {
     backgroundColor: '#f2f2f2',
   },
   containerDark: {
-    backgroundColor: '#A0AEC0',
+    backgroundColor: '#718096',
   },
   keypadContainer: {
     width: '100%',
