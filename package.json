@@ -1,6 +1,6 @@
 {
   "name": "rc-keypad",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Simple keypads for react",
   "author": "hmharshith",
   "license": "MIT",
@@ -12,7 +12,7 @@
     "node": ">=10"
   },
   "scripts": {
-    "build": "microbundle-crl --no-compress --format modern,cjs",
+    "build": "microbundle-crl --compress --format esm",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
     "prepare": "run-s build",
     "test": "run-s test:unit test:lint test:build",
