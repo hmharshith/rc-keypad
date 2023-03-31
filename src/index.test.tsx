@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import { AlphabetOnlyKeypad } from '.'
 
-describe('ExampleComponent', () => {
+describe('AlphabetOnlyKeypad', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(AlphabetOnlyKeypad).toBeTruthy()
   })
 })

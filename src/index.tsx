@@ -1,10 +1,15 @@
-import * as React from 'react'
-import styles from './styles.module.css'
+import AlphabetOnlyKeypad from "./keypads/AlphabetOnlyKeypad"
+export type KeyPadType = 'ALPHABETIC_ONLY'
 
-interface Props {
-  text: string
+export enum SpecialKeys {
+  Enter = 'Enter',
+  Backspace = 'Backspace',
+  Capslock = 'Capslock',
 }
 
-export const ExampleComponent = ({ text }: Props) => {
-  return <div className={styles.test}>Example Component: {text}</div>
+export type KeyPadProps = {
+  onKeyPress?: (key: string | SpecialKeys) => void,
+  colorMode?: 'light' | 'dark',
 }
+
+export { AlphabetOnlyKeypad }

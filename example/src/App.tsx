@@ -1,10 +1,7 @@
 import React from 'react'
-
-import { ExampleComponent } from 'rc-keypad'
-import 'rc-keypad/dist/index.css'
-
+import { AlphabetOnlyKeypad } from 'rc-keypad'
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <AlphabetOnlyKeypad onKeyPress={(key) => console.log(key)} colorMode='dark' />
 }
 
 export default App
